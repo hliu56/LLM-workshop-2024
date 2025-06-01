@@ -1,0 +1,40 @@
+attention_logit_softcapping: null
+attention_scores_scalar: null
+attn_bias: false
+bias: true
+block_size: 2048
+final_logit_softcapping: null
+gelu_approximate: tanh
+head_size: 80
+hf_config:
+  name: phi-2
+  org: microsoft
+intermediate_size: 10240
+lm_head_bias: true
+mlp_class_name: GptNeoxMLP
+n_embd: 2560
+n_expert: 0
+n_expert_per_token: 0
+n_head: 32
+n_layer: 32
+n_query_groups: 32
+name: phi-2
+norm_class_name: LayerNorm
+norm_eps: 1.0e-05
+norm_qk: false
+padded_vocab_size: 51200
+padding_multiple: 512
+parallel_residual: true
+post_attention_norm: false
+post_mlp_norm: false
+rope_adjustments: null
+rope_base: 10000
+rope_condense_ratio: 1
+rope_indices: null
+rope_local_base_freq: null
+rotary_percentage: 0.4
+scale_embeddings: false
+shared_attention_norm: true
+sliding_window_indices: null
+sliding_window_size: null
+vocab_size: 50257
